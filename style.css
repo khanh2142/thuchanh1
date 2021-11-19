@@ -1,0 +1,113 @@
+.header-top {
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.logo {
+  position: relative;
+  z-index: 1000;
+  display: block;
+  height: 166px;
+  width: 133px;
+  background-image: url("http://htnc.edu.vn/sites/default/files/logonew111_1_0.png");
+}
+
+.introduce {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 1121px;
+  height: 145px;
+  background-image: url("http://htnc.edu.vn/sites/all/themes/responsive_green/images/banner.png");
+}
+
+.menu-bar {
+  background-color: #14903a;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.nav-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 10px;
+}
+
+.active-bg {
+  background-color: #057126;
+}
+.nav-item:hover {
+  background-color: #057126;
+}
+
+.nav-item:hover .drop-menu {
+  display: flex;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.drop-menu {
+  z-index: 9999;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  width: 200px;
+}
+
+.drop-item {
+  width: 100%;
+  padding: 10px;
+  background-color: #14903a;
+}
+
+.drop-item:hover {
+  background-color: #057126;
+  text-decoration: none;
+}
+
+.drop-item:hover .nav-item {
+  background-color: #14903a;
+}
+
+.carousel {
+  width: 75%;
+  height: 320px;
+}
+
+.news {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #fff;
+}
+
+.news h3 {
+  color: #14903a;
+}
+
+.news a {
+  margin-bottom: 5px;
+  list-style: square;
+}
+
+.news-icon {
+  display: inline-block;
+  background: url("http://htnc.edu.vn/sites/all/themes/responsive_green/images/new_icon.gif")
+    no-repeat;
+  width: 25px;
+  height: 13px;
+}
+
+.news a:hover {
+  text-decoration: none;
+}
