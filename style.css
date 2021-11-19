@@ -9,7 +9,7 @@
   display: block;
   height: 166px;
   width: 133px;
-  background-image: url("http://htnc.edu.vn/sites/default/files/logonew111_1_0.png");
+  background-image: url("./images/logo.png");
 }
 
 .introduce {
@@ -19,7 +19,7 @@
   left: 400px;
   width: 1121px;
   height: 145px;
-  background-image: url("http://htnc.edu.vn/sites/all/themes/responsive_green/images/banner.png");
+  background-image: url("./images/banner.png");
 }
 
 .menu-bar {
